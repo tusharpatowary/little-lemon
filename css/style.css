@@ -140,7 +140,7 @@ strong{
     letter-spacing: 0.75px;
 }
 
-
+.btn,
 .btn:link, .btn:visited{
     display: inline-block;
     text-decoration: none;
@@ -150,6 +150,10 @@ strong{
     border-radius: 15px;
     /* transition: background-colur 0.3s; */
     transition: all 0.3s;
+    /* Only for btn */
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn--full:link, .btn--full:visited
@@ -175,6 +179,22 @@ strong{
     /* Trick for add boarder inside*/
     box-shadow: inset 0 0 0 5px #a4afab;
 }
+
+.btn--form{
+    background-color: #312904;
+    color: #fefae8;
+    grid-column: span 2;
+    width: 40%;
+    justify-self: center;
+    /* padding: 1.2rem; */
+}
+.btn--form:hover{
+    color: #252f2c;
+    background-color: #e9fac8;
+
+}
+
+
 .link:link,
 .link:visited{
     display: inline-block;
@@ -193,6 +213,11 @@ strong{
     padding-top: .7rem;
     border-radius: 15px;
     border-bottom: 1px solid transparent;
+}
+
+*:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(244, 207, 20, 0.5);
 }
 
 /* HELPER/SETTINGS CLASES */
@@ -231,6 +256,7 @@ strong{
     gap: 3.2rem;
 }
 
+
 .main-nav-link:link,
 .main-nav-link:visited{
     text-decoration: none;
@@ -239,6 +265,7 @@ strong{
     font-size: 1.8rem;
     transition: all 0.3s;
 }
+
 
 .main-nav-link:hover,
 .main-nav-link:active{
@@ -472,4 +499,73 @@ strong{
 }
 .gallary-img img:hover{
     transform: scale(1.1);
+}
+
+/*****************************/
+/*TABLE BOOKING SECTION*/
+/****************************/
+.section-cta{
+    padding: 9.6rem 0;
+
+}
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    background-image: linear-gradient(to right bottom, #f4ce14, #f7dd5b );
+    overflow: hidden;
+    border: 0.5px solid #f4ce14;
+}
+
+.cta-text-box{
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #312904;
+}
+.cta .heading-secondary{
+    color: #312904;
+    margin-bottom: 3.2rem;
+}
+.cta-text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+.cta-img-box{
+    background-image: linear-gradient(to right bottom, rgba(244, 207, 20, 0.35), rgba(247, 221, 91, 0.35) ), url(../img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cta-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+
+.cta-form label
+{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.cta-form input
+{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fefae8;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta-form input::placeholder{
+    color: #a4afab;
+}
+.cta *:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem hsla(49, 92%, 95%, 0.5);
 }
