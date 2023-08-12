@@ -1,8 +1,9 @@
 # Little Lemon Restaurant Website
 
 Welcome to the GitHub repository for the **Little Lemon Restaurant** website!
-# Project Little Lemon
-## About this Project
+
+
+## Project Background
 
 Restaurant: Little Lemon  
 
@@ -12,7 +13,7 @@ Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to th
 
 
 
-## About This Website
+## About This Project
 
 This website is a project that I built to practice and showcase my skills in web development, specifically using HTML and CSS. The website is designed for a fictional family-owned Mediterranean restaurant called Little Lemon, located in Chicago, Illinois.
 
@@ -26,22 +27,19 @@ The main goal of this project was to create a responsive and visually appealing 
 
 - **Responsive Design:** The website is designed to be responsive, ensuring a seamless experience on both desktop and mobile devices.
 
-- **GitHub:** The website's source code is hosted on GitHub, utilizing the platform for version control and collaboration.
 
 ## Access the Website
 
 You can access the Little Lemon Restaurant website at [https://littlelemon-webifyr.netlify.app/](https://littlelemon-webifyr.netlify.app/).
 
-## Source Code
 
-The complete source code for this project is available on my GitHub repository: [GitHub Repository](https://github.com/yourusername/little-lemon-restaurant).
 
 Feel free to explore the code, provide feedback, or even use it as a learning resource for your own web development journey.
 
 ## Contact Me
 
-If you have any questions about the technologies I used, the design choices I made, or would like to discuss web development in general, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/tusharpatowary/).
+If you have any questions about the technologies I used, or the design choices I made, or would like to discuss web development in general, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/tusharpatowary/).
 
 Thank you for checking out my project!
 
-> Crafted with code by [Your Name].
+> Crafted with ❤ by [TusharAhmed].
