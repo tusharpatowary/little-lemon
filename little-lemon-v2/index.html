@@ -1,33 +1,961 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Experience the Best of Mediterranean Cuisine with Little Lemon" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img\littlelemonogpimg.png" />
+    <meta property="og:description"
+        content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist." />
+    <meta property="og:url" content="https://littlelemon-webifyr.netlify.app/" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@tushar_patowary" />
+    <meta name="twitter:title" content="Little Lemon - Experience the Best of Mediterranean Cuisine" />
+    <meta name="twitter:description"
+        content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist." />
+    <meta name="twitter:image" content="img\littlelemonogpimg.png" />
+
+
+    <!-- <link rel="icon" type="img/png" href="img\logo\Asset 20@4x.png">  -->
+    <link rel="icon" type="img/png" href="img\logo\Asset 9@4x.png">
+    <title>Little Lemon - Best Mediterranean Restaurant </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
 
+    <header class="header">
+        <a href="#">
+            <img src="img\logo\Asset 16@4x.png" alt="Little Lemon logo" class="logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="#" class="main-nav-link">Home</a></li>
+                <li><a href="/sub-pages/menu.html" class="main-nav-link">Manu</a></li>
+                <li><a href="#testimonial" class="main-nav-link">About Us</a></li>
+                <!-- <li><a href="#" class="main-nav-link">Contact Us</a></li> -->
+                <li><a href="#table-booking" class="main-nav-link nav-cta">Book A Table</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+
+    </header>
+
+
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                        Experience the Best of Mediterranean Cuisine with Little Lemon
+                    </h1>
+                    <p class="hero-description">
+                        Discover the authentic taste of the Mediterranean at Little Lemon, a family-owned restaurant
+                        serving traditional recipes with a modern twist in the heart of Chicago
+                    </p>
+                    <a href="sub-pages/menu.html" class="btn btn--full margin-right-sm">Veiw Our Manu</a>
+                    <a href="#" class="btn btn--outline">Learn more &darr;</a>
+                </div>
+                <div class="hero-img-box">
+                    <img src="img\hero.png" class="hero-img"
+                        alt="Women enjoying food at Little Lemon, Meals in storage container and Food bowls on table">
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="best-dises">
+            <div class="container">
+                <span class="subheading">
+                    Our Top Selling Dishes
+                </span>
+                <h2 class="heading-secondary">
+                    Taste the Authentic Flavors of the Mediterranean
+                </h2>
+            </div>
+
+            <div class="container grid grid--2-cols grid--center-v">
+                <!-- Best Food 01 -->
+                <div class="bfood-text-box">
+                    <p class="bfood-number">
+                        01
+                    </p>
+                    <h3 class="heading-tertiary">
+                        Chopped Salad with Oregano Vinaigrette
+                    </h3>
+                    <p class="bfood-description">
+                        Our Chopped Salad with Oregano Vinaigrette is a fresh and zesty mix of chopped vegetables,
+                        including crisp lettuce, juicy tomatoes, crunchy cucumbers, and tangy red onions, tossed
+                        together with a flavorful oregano vinaigrette. It's a perfect light and refreshing option for a
+                        side dish or a quick lunch.
+                    </p>
+
+                </div>
+                <div class="bfood-img-box">
+                    <img src="img\bfood\BestFood-1.jpg" alt="Image of Chopped Salad with Oregano Vinaigrette"
+                        class="bfood-img">
+                </div>
+                <!-- Best Food 2 -->
+                <div class="bfood-img-box">
+                    <img src="img\bfood\BestFood-2.jpg"
+                        alt=" Image of Chicken Shawarma Salad with Lemon Tahini Dressing" class="bfood-img">
+                </div>
+                <div class="bfood-text-box">
+                    <p class="bfood-number">
+                        02
+                    </p>
+                    <h3 class="heading-tertiary">
+                        Chicken Shawarma Salad with Lemon Tahini Dressing
+                    </h3>
+                    <p class="bfood-description">
+                        Our Chicken Shawarma Salad with Lemon Tahini Dressing is a mouthwatering blend of marinated
+                        grilled chicken, crisp lettuce, juicy tomatoes, and cucumber slices, topped with a creamy and
+                        tangy lemon tahini dressing. It's a satisfying and healthy meal that's perfect for lunch or
+                        dinner.
+                    </p>
+
+                </div>
+                <!-- Best Food 03 -->
+                <div class="bfood-text-box">
+                    <p class="bfood-number">
+                        03
+                    </p>
+                    <h3 class="heading-tertiary">
+                        Mediterranean Hummus Bowl
+                    </h3>
+                    <p class="bfood-description">
+                        Our Mediterranean Hummus Bowl is a delicious and healthy option that's packed with flavor and
+                        nutrients. It's made with creamy hummus, crisp lettuce, juicy cherry tomatoes, crunchy
+                        cucumbers, and tangy pickled onions, all drizzled with a flavorful olive oil and lemon juice
+                        dressing. This dish is a perfect option for a light and satisfying lunch or dinner.
+                    </p>
+
+                </div>
+                <div class="bfood-img-box">
+                    <img src="img\bfood\BestFood-3.jpg" alt=" Image of Mediterranean Hummus Bowl" class="bfood-img">
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Manu Section Starts -->
+
+        <!-- <section class="section-manu">
+            <div class="container center-text">
+                <span class="subheading">
+                    Our Manu
+                </span>
+                <h2 class="heading-secondary">
+                    Modern Mediterranean Flavors with a<br> Traditional Twist
+                </h2>
+            </div>
+            <div class="container subheading-manu ">
+                <span class="subheading">
+                    Main Courses
+                </span>
+            </div>
+            <div class="container grid grid--3-cols">
+                <div class="meals">
+                    <img src="img\manu\Grilled-Lamb-Chops-with-Roasted-Vegetables.jpg"
+                        alt="Grilled Lamb Chops with Roasted Vegetables Image" class="meal-img">
+
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="meal-tag meal-tag--meat">
+                                Meat
+                            </span>
+                            <span class="meal-tag meal-tag--vegi">
+                                Vegetable
+                            </span>
+                        </div>
+
+
+                        <p class="meal-title">
+                            Grilled Lamb with Roasted Vegetables
+                        </p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span> <strong>260</strong> calories</span>
+                            </li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="star-outline"></ion-icon><span>
+                                    <strong>4.9</strong> ratting (567)</span></li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                <span class="bullshit-price">$20.00</span>
+                                <span class="real-price">$18.99</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Grilled Salmon.jpg" alt="Grilled Salmon Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--pescatarian">
+                                    Pescatarian
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Mediterranean Herb-Grilled Salmon
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span> <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span> <strong>4.9</strong> ratting (567)</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Chicken Souvlaki with Tzatziki Sauce.jpg"
+                            alt="Chicken Souvlaki with Tzatziki Sauce Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--chicken">
+                                    Meat
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Chicken Souvlaki with Tzatziki Sauce
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span> <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span> <strong>4.9</strong> ratting (567)</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Stuffed Bell Pepper.jpg" alt=" Stuffed Bell PepperImage" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--vegan">
+                                    Vegan
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Vegetable Stuffed Bell Pepper
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span> <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span> <strong>4.9</strong> ratting (567)</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Chickpea and Spinach Curry Bowl.jpg"
+                            alt="Chickpea and Spinach Curry Bowl Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--vegan">
+                                    Meat
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Chickpea and Spinach Curry Bowl
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span> <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span> <strong>4.9</strong> ratting (567)</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="meals-link">
+                    <a href="#" class="link">See our full main course manu &rarr; </a>
+                </div>
+
+            </div> -->
+
+            <!-- ------------------ -->
+            <!-- Appetizers Section -->
+            <!-- ------------------ -->
+
+
+            <!-- <div class="container subheading-manu ">
+                <span class="subheading">
+                    Appetizers
+                </span>
+            </div>
+            <div class="container grid grid--3-cols">
+                <div class="meals">
+                    <img src="img\manu\Mezze Plate.jpg" alt="Mediterranean Mezze Plate Image" class="meal-img">
+
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="meal-tag meal-tag--vegan">
+                                Vegan
+                            </span>
+                            <span class="meal-tag meal-tag--vegi">
+                                Vegetable
+                            </span>
+                        </div>
+
+
+                        <p class="meal-title">
+                            Mediterranean Mezze Plate
+                        </p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span> <strong>260</strong> calories</span>
+                            </li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="star-outline"></ion-icon><span>
+                                    <strong>4.9</strong> ratting (567)</span></li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                <span class="bullshit-price">$20.00</span>
+                                <span class="real-price">$18.99</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Crispy Fried Falafel.jpg" alt="Crispy Fried Falafel Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--vegan">
+                                    Vegan
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Crispy Fried <br> Falafel
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span> <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span> <strong>4.9</strong> ratting (567)</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Garlic and Herb Focaccia Bread.jpg"
+                            alt="Garlic and Herb Focaccia Bread Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--vegan">
+                                    Vegan
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Garlic and Herb Focaccia Bread
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span> <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span> <strong>4.9</strong> ratting (567)</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="meals-link-outside">
+                <a href="#" class="link">See our full Appetizers manu &rarr; </a>
+            </div> -->
+
+            <!-- ------------------ -->
+            <!-- Salads Section -->
+            <!-- ------------------ -->
+
+
+            <!-- <div class="container subheading-manu ">
+                <span class="subheading">
+                    Salads
+                </span>
+            </div>
+            <div class="container grid grid--3-cols">
+                <div class="meals">
+                    <img src="img\manu\Chopped Salad with Oregano Vinaigrette.jpg"
+                        alt="Chopped Salad with Oregano Vinaigrette Image" class="meal-img">
+
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="meal-tag meal-tag--vegan">
+                                Vegan
+                            </span>
+                            <span class="meal-tag meal-tag--vegi">
+                                Vegetable
+                            </span>
+                        </div>
+
+
+                        <p class="meal-title">
+                            Chopped Salad with Oregano Vinaigrette
+                        </p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>
+                                    <strong>260</strong> calories</span>
+                            </li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="star-outline"></ion-icon><span>
+                                    <strong>4.9</strong> ratting (567)</span></li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                <span class="bullshit-price">$20.00</span>
+                                <span class="real-price">$18.99</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Chicken Shawarma Salad with Lemon Tahini Dressing.jpg"
+                            alt=" Chicken Shawarma Salad with Lemon Tahini Dressing Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--chicken">
+                                    Meat
+                                </span>
+                                <span class="meal-tag meal-tag--vegi">
+                                    Vegitable
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Chicken Shawarma Salad with Lemon
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span>
+                                        <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span>
+                                        <strong>4.9</strong> ratting (567)</span></li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Hummus.jpg" alt="Mediterranean Hummus Bowl Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--vegan">
+                                    Vegan
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Mediterranean Hummus Bowl
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span>
+                                        <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span>
+                                        <strong>4.9</strong> ratting (567)</span></li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> -->
+
+            <!-- ------------------ -->
+            <!-- Pasta Section -->
+            <!-- ------------------ -->
+
+
+            <!-- <div class="container subheading-manu ">
+                <span class="subheading">
+                    Pasta
+                </span>
+            </div>
+            <div class="container grid grid--3-cols">
+                <div class="meals">
+                    <img src="img\manu\Spaghetti Carbonara.jpg" alt="Spaghetti Carbonara Image" class="meal-img">
+
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="meal-tag meal-tag--vegan">
+                                Vegan
+                            </span>
+                        </div>
+
+
+                        <p class="meal-title">
+                            Spaghetti Carbonara
+                        </p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>
+                                    <strong>260</strong> calories</span>
+                            </li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="star-outline"></ion-icon><span>
+                                    <strong>4.9</strong> ratting (567)</span></li>
+
+                            <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                <span class="bullshit-price">$20.00</span>
+                                <span class="real-price">$18.99</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Linguine with Clams and Garlic.jpg"
+                            alt=" Linguine with Clams and Garlic Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--pescatarian">
+                                    Pescatarian
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Linguine with Clams and Garlic
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span>
+                                        <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span>
+                                        <strong>4.9</strong> ratting (567)</span></li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="Manu">
+                    <div class="meals">
+                        <img src="img\manu\Fettuccine Alfredo.jpg" alt="Fettuccine Alfredo Image" class="meal-img">
+
+                        <div class="meal-content">
+                            <div class="meal-tags">
+                                <span class="meal-tag meal-tag--vegan">
+                                    Vegan
+                                </span>
+                            </div>
+
+
+                            <p class="meal-title">
+                                Fettuccine <br> Alfredo
+                            </p>
+                            <ul class="meal-attributes">
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span>
+                                        <strong>260</strong> calories</span>
+                                </li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon"
+                                        name="star-outline"></ion-icon><span>
+                                        <strong>4.9</strong> ratting (567)</span></li>
+
+                                <li class="meal-attribute"><ion-icon class="meal-icon" name="cash-outline"></ion-icon>
+                                    <span class="bullshit-price">$20.00</span>
+                                    <span class="real-price">$18.99</span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section> -->
+
+        <!-- Section Testimonials -->
+        <section id="testimonial" class="section-testimonials ">
+            <div class="testimonials-container">
+                <span class="subheading">
+                    Testimonials
+                </span>
+                <h2 class="heading-secondary">
+                    Once you teste it, you can't go back
+                </h2>
+
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <img src="img\customers\ben.jpg" alt="Image of customer Ben" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            I recently had lunch at LittleLemon and blown away by the flavors and freshness of the food.
+                            The grilled salmon with Mediterranean-inspired flavors was simply divine! I highly recommend
+                            this to anyone looking for delicious healthy food.
+                        </blockquote>
+                        <p class="testimonial-name"> &mdash; Ben Miller</p>
+                    </figure>
+
+                    <figure class="testimonial">
+                        <img src="img\customers\Sarah.jpg" alt="Image of customer Sarah" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            As a vegan, I always struggle to find good quality restaurants that cater to my dietary
+                            needs. Little Lemon exceeded my expectations! Their vegan chickpea and spinach curry was one
+                            of the best dishes I've ever tasted. I'll definitely be back!
+                        </blockquote>
+                        <p class="testimonial-name"> &mdash; Sarah Montgomery</p>
+                    </figure>
+
+                    <figure class="testimonial">
+                        <img src="img\customers\John.jpg" alt="Image of customer John" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            Little Lemon is a hidden gem in the heart of the city. I've tried several dishes on their
+                            menu, but the Crispy Fried Falafel is by far my favorite. The flavors are bold and
+                            satisfying, and the texture of the falafel is just perfect. Highly recommended!
+                        </blockquote>
+                        <p class="testimonial-name"> &mdash; John T. Smith</p>
+                    </figure>
+
+                    <figure class="testimonial">
+                        <img src="img\customers\Amanda.jpg" alt="Image of customer Amanda" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            I recently went to LittleLemon with my family, and very impressed with the quality of the
+                            food and the service. The Linguine with Clams and Garlic was a crowd favorite and had
+                            everyone raving about the flavors. We will definitely be back for more!
+                        </blockquote>
+                        <p class="testimonial-name"> &mdash; Amanda L. Johnson</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallary">
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-1.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-2.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-3.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-4.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-5.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-6.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-7.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-8.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-9.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-10.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-11.jpg" alt="Photo of little lemons food">
+                </figure>
+                <figure class="gallary-img">
+                    <img src="img\gallery\gallery-12.jpg" alt="Photo of little lemons food">
+                </figure>
+
+            </div>
+        </section>
+
+
+        <!-- SECTION TABLE BOOKING -->
+
+        <section id="table-booking" class="section-cta">
+            <div class="container">
+                <div class="cta">
+                    <div class="cta-text-box">
+
+                        <h2 class="heading-secondary">
+                            Experience Mediterranean Flavors - Book Now!
+                        </h2>
+                        <p class="cta-text">
+                            Discover the Flavors of the Mediterranean. Indulge in the vibrant and diverse flavors of the
+                            Mediterranean with every bite at Little Lemon.
+                        </p>
+                        <form class="cta-form" action="#">
+                            <div>
+                                <label for="full-name">Full Name</label>
+                                <input id="full-name" type="text" placeholder="John Smith" required>
+                            </div>
+
+                            <div>
+                                <label for="date">Date</label>
+                                <input id="date" type="date" value="2023-03-27" required>
+                            </div>
+
+                            <div>
+                                <label for="time">Time</label>
+                                <input id="time" type="time" value="13:00" required>
+                            </div>
+                            <div>
+                                <label for="guest-number">Person</label>
+                                <input id="guest-number" type="number" value="2" required>
+                            </div>
+
+                            <button class="btn btn--form" type="submit">Book a Table</button>
+
+                        </form>
+
+                    </div>
+                    <div class="cta-img-box"></div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="container grid grid--footer">
+
+
+
+
+
+            <div class="logo-col">
+                <a href="#" class="footer-logo">
+                    <img src="img\logo\Asset 16@4x.png" alt="Little Lemon logo" class="logo">
+                </a>
+
+                <ul class="social-links">
+                    <li><a class="footer-link" href="https://twitter.com/tushar_patowary" target="_blank"><ion-icon
+                                class="social-icon" name="logo-instagram"></ion-icon></a></li>
+                    <li><a class="footer-link" href="https://twitter.com/tushar_patowary" target="_blank"><ion-icon
+                                class="social-icon" name="logo-twitter"></ion-icon></a></li>
+                    <li><a class="footer-link" href="https://www.linkedin.com/in/tusharpatowary/"
+                            target="_blank"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+                    <li><a class="footer-link" href="https://www.linkedin.com/in/tusharpatowary/"
+                            target="_blank"><ion-icon class="social-icon" name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+
+
+                <p class="copyright">
+                    Copyright &copy; 2023 by Little Lemon. All rights reseved.<br>Made with ❤ by Tushar</p>
+            </div>
+
+            <nav class="col-nav">
+                <p class="footer-heading">
+                    About Us
+                </p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Our Story</a></li>
+                    <li><a class="footer-link" href="#">Our Manu</a></li>
+                    <li><a class="footer-link" href="#">Meet Our Team</a></li>
+                    <li><a class="footer-link" href="#">Join Our Team</a></li>
+                </ul>
+            </nav>
+            <nav class="col-nav">
+                <p class="footer-heading">
+                    Our Services
+                </p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Make a Reservation</a></li>
+                    <li><a class="footer-link" href="#">Private Events</a></li>
+                    <li><a class="footer-link" href="#">Catering</a></li>
+                    <li><a class="footer-link" href="#">Home delivery</a></li>
+
+
+                </ul>
+            </nav>
+            <nav class="col-nav">
+                <p class="footer-heading">
+                    Opening
+                </p>
+                <ul class="footer-nav">
+                    <li class="li-text"> Mon &dash; Fri</li>
+                    <li class="li-text">11AM &dash; 10PM</li>
+                    <li class="li-text">Sat: 12pm &dash; 11pm</li>
+                    <li class="li-text">Sunday: Closed</li>
+
+
+                </ul>
+            </nav>
+
+            <div class="add-col">
+                <p class="footer-heading">Contact Us</p>
+                <address class="contacts">
+                    <p class="address">7138 S Ridgeway Ave
+                        Chicago, Illinois(IL)&dash; 60629
+                    </p>
+                    <p>
+                        <a class="footer-link" href="tel:(773) 789-2477">(773) 789-2477</a>
+                        <a class="footer-link" href="mailto:hello@littlelemon.com">hello@littlelemon.com</a>
+                    </p>
+
+                </address>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
